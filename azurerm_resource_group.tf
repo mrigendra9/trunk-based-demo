@@ -27,3 +27,9 @@ resource "azurerm_resource_group" "rgname_05" {
   location = "eastus2"
   
 }
+
+resource "azurerm_resource_group" "rgname_05" {
+  name = "kumamrig-rg05"
+  location = "eastus2"
+  
+}
